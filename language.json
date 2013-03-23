@@ -1,0 +1,19 @@
+{
+  "config": {
+    "default": "en"
+  },
+  "language": {
+    "en": {
+      "#pluginName": "Multi Language",
+      "#msg1": "Some message #1",
+      "#msg2": "Some message #2",
+      ".classA": "Class #A"
+    },
+    "chi": {
+      "#pluginName": "多國語言",
+      "#msg1": "訊息#1",
+      "#msg2": "訊息#2",
+      ".classA": "類別 #A"
+    }
+  }
+}
