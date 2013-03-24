@@ -5,12 +5,20 @@
   "language": {
     "en": {
       "#pluginName": "Multi Language",
+      "#howToUse": "How to use:",
+      "#defaultLangCode": "// choose language by localStorage or default in json config",
+      "#enLangCode": "// change language immdiately",
+      "#demo": "Demo:",
       "#msg1": "Some message #1",
       "#msg2": "Some message #2",
       ".classA": "Class #A"
     },
     "chi": {
       "#pluginName": "多國語言",
+      "#howToUse": "如何使用",
+      "#defaultLangCode": "// 選擇語言於localStorage或json中的預設值",
+      "#enLangCode": "// 即時轉換語言",
+      "#demo": "示範",
       "#msg1": "訊息#1",
       "#msg2": "訊息#2",
       ".classA": "類別 #A"
