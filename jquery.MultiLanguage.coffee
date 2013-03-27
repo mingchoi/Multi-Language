@@ -22,5 +22,8 @@ $.MultiLanguage = (jsonPath, language = null) ->
 
     # Loop through message in data
     for domName, msg of langData
+      if $(domName).get(0).tagName.toLowerCase() is 'title'
+        document.title = msg
+        continue
       $(domName).html langData[domName] if domName.length > 0
    )
