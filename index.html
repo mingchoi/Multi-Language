@@ -1,60 +1,36 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Multi-language : A jquery plugin to handle multi language" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Multi-language</title>
+    <title id="ml-title"></title>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-type' />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <script src="jquery.MultiLanguage.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $.MultiLanguage('language.json');
+      })
+    </script>
+  <style>
+    body{padding-left: 20px;}
+  </style>
   </head>
-
   <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/mingchoi/Multi-Language">View on GitHub</a>
-
-          <h1 id="project_title">Multi-language</h1>
-          <h2 id="project_tagline">A jquery plugin to handle multi language</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/mingchoi/Multi-Language/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/mingchoi/Multi-Language/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>Multi Language</h1>
-
-<p>A jquery plugin to handle multi language</p>
-
-<h2>How to use:</h2>
-
-<p>$.MultiLanguage('language.json') // choose language by localStorage or default in json config
-$.MultiLanguage('language.json', 'en') // change language immdiately</p>
-
-<h2>Demo:</h2>
-
-<p><a href="http://dl.dropbox.com/u/60645340/Coding-Github/MultiLanguage/index.html">demo on dropbox</a></p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Multi-language maintained by <a href="https://github.com/mingchoi">mingchoi</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
+    <h1 id="ml-pluginName"></h1>
+    <p>
+      <h3 id="ml-howToUse"> </h3>
+      <div><code>$.MultiLanguage('language.json') <span id="ml-defaultLangCode"> </span></code></div>
+      <div><code>$.MultiLanguage('language.json', 'en') <span id="ml-enLangCode"> </span></code></div>
+    </p>
+    <p>
+      <h3 id="ml-demo"> </h3>
+      <button onclick="$.MultiLanguage('language.json', 'chi')" class="btn">中文</button><span>&nbsp;</span>
+      <button onclick="$.MultiLanguage('language.json', 'en')" class="btn">English</button>
+    </p>
+    <p id="ml-msg1"></p>
+    <p class="ml-classA"></p>
+    <p id="ml-msg2"></p>
+    <p class="ml-classA"></p>
   </body>
 </html>
