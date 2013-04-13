@@ -11,11 +11,11 @@ $.MultiLanguage('language.json', 'en') // change language immdiately
 
 Demo:
 -----
-[demo on dropbox]
+[demo]
 
 
 
-[demo on dropbox]:http://dl.dropbox.com/u/60645340/Coding-Github/MultiLanguage/index.html
+[demo]:http://mingchoi.github.io/Multi-Language/
 
 
 
