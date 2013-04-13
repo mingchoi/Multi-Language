@@ -1,0 +1,29 @@
+{
+  "config": {
+    "default": "en"
+  },
+  "language": {
+    "en": {
+      "#ml-title": "Multi Language",
+      "#ml-pluginName": "Multi Language",
+      "#ml-howToUse": "How to use:",
+      "#ml-defaultLangCode": "// choose language by localStorage or default in json config",
+      "#ml-enLangCode": "// change language immdiately",
+      "#ml-demo": "Demo:",
+      "#ml-msg1": "Some message #1",
+      "#ml-msg2": "Some message #2",
+      ".ml-classA": "Class #A"
+    },
+    "chi": {
+      "#ml-title": "多國語言",
+      "#ml-pluginName": "多國語言",
+      "#ml-howToUse": "如何使用",
+      "#ml-defaultLangCode": "// 選擇語言於localStorage或json中的預設值",
+      "#ml-enLangCode": "// 即時轉換語言",
+      "#ml-demo": "示範",
+      "#ml-msg1": "訊息#1",
+      "#ml-msg2": "訊息#2",
+      ".ml-classA": "類別 #A"
+    }
+  }
+}
