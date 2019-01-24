@@ -5,9 +5,12 @@ A jquery plugin to handle multi language
 
 How to use:
 -----------
-## Init
+## Start with default language
 ```
 $.MultiLanguage('language.json') // choose language by localStorage or default in json config
+```
+### (Or Start with assigned language)
+```
 $.MultiLanguage('language.json', 'en') // change language immdiately
 ```
 ## language.json
